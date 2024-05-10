@@ -1,0 +1,117 @@
+header {
+    color:slateblue;
+    background-color:lightblue;
+    grid-area: hdr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    
+  
+}
+body {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 15% auto;
+    grid-template-rows: 75px auto 50px;
+    grid-template-areas: "hdr hdr" "aside main" "ftr ftr";
+}
+a{
+    text-decoration: none;
+    color: slateblue;
+}
+
+header, aside, main, footer{
+    padding: 20px;
+    text-align: center;
+   
+}
+aside {
+    background-color:slateblue;
+    grid-area: aside;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+aside > img{
+    border-radius: 80px;
+    height: 180px;
+
+}
+h1 {
+    color:slateblue;
+    font-family: cursive;
+}
+
+main {
+    grid-area: main;
+    background-color: rgb(162, 253, 223);
+    color: slateblue;
+    text-align: center;
+}
+
+ul{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 50px;
+    
+}
+
+footer {
+    color: slateblue;
+    background-color:lightblue;
+    grid-area: ftr;
+}
+
+header, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+tbody tr:nth-child(odd) {
+    background-color:lightblue;
+}
+
+#contact_form {
+    background-color: slateblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+  
+  .row label{
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  
+  input[type=text], textarea {
+    text-align: center;
+    background-color:rgb(162, 253, 223) ;
+    border-radius: 10px;
+    margin: auto 0;
+    color: #FFFFFF;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 10px #3e4444;
+    }
+  
+  input[type=text] {
+    height: 25px;
+  }
+  
+  input[type=submit] {
+    background-color: lightblue;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-left: 10px;
+    box-shadow: 5px 5px 5px #3e4444;
+  }
+
+ 
